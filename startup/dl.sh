@@ -30,5 +30,5 @@ clear
 echo -ne "Downloaded!\n"
 sleep 3
 chmod +x root.sh >/dev/null
-chmod +x sys-setup.sh >/dev/null
+chmod +x setup.sh >/dev/null
 bash setup.sh

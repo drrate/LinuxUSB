@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "This is the final part of setup. Only a few things left to do."
 echo "Now deleting the setup user and files."
+sleep 2
 username=`whoami`
 sudo bash root.sh 10 $username
 sleep 2

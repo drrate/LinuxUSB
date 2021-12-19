@@ -21,7 +21,7 @@ function usergen
     usermod -aG sudo $1
     usermod -aG wheel $1
     usermod -aG video $1
-    usermod -aG plugdev $1 
+    usermod -aG plugdev $1
     echo -e "$2\n$2" | passwd $1 &>/dev/null
     passwd --lock root &>/dev/null
     passwd -d root &>/dev/null
@@ -30,8 +30,8 @@ function finalstupidity
 {
     mkdir -p /home/$1/.config/autostart
     cp /home/$1/.bashrc /home/$1/.bashrc.bak
-    curl https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/what -o /home/$1/.bashrc
-    curl https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/desktemp -o /home/$1/.config/autostart/desktemp.desktop
+    curl https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/laststeps/newuser-bashrc -o /home/$1/.bashrc
+    curl https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/laststeps/finishsetup.desktop -o /home/$1/.config/autostart/desktemp.desktop
     chsh $1 -s /bin/bash
     chmod +x /home/$1/.config/autostart/desktemp.desktop
 }

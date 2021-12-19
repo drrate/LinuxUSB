@@ -3,7 +3,8 @@ clear
 echo -ne "Now attempting to update the system.\n"
 sleep 2
 # yes i know this is a bad idea, i'll fix it later
-sudo pacman -Sy --noconfirm
+sudo apt update
+sudo apt upgrade -y
 sleep 2
 clear
 sleep 1

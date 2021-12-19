@@ -52,16 +52,16 @@ if [ $1 -eq "2" ]; then
     usergen $2 $3
 fi
 if [ $1 -eq "3" ]; then
-    pacman -S --noconfirm firefox
+    apt install -y firefox
 fi
 if [ $1 -eq "4" ]; then
-    pacman -S --noconfirm ungoogled-chromium
+    apt install -y ungoogled-chromium
 fi
 if [ $1 -eq "5" ]; then
-    sudo pacman -S --noconfirm xfce4 xfce4-goodies 
+    sudo apt install -y xfce4 xfce4-goodies 
 fi
 if [ $1 -eq "6" ]; then
-    sudo pacman -S --noconfirm lxqt
+    sudo apt install -y lxqt
 fi
 if [ $1 -eq "9" ]; then
     finalstupidity $2

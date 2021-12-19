@@ -1,2 +1,2 @@
 # linusb
-source code of linuxusb, put everything together manually into artix openrc iso and you've got a linuxusb
+source code of linuxusb, put everything together manually into debian bullseye freshly installed and you've got a linuxusb

@@ -54,10 +54,10 @@ if [ $1 -eq "2" ]; then
     usergen $2 $3
 fi
 if [ $1 -eq "3" ]; then
-    apt install -y firefox
+    apt install -y firefox-esr
 fi
 if [ $1 -eq "4" ]; then
-    apt install -y ungoogled-chromium
+    apt install -y chromium
 fi
 if [ $1 -eq "5" ]; then
     sudo apt install -y xfce4 xfce4-goodies 

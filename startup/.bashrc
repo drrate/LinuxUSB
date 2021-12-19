@@ -1,5 +1,4 @@
-# The network setup part
-
+clear
 echo -ne "Welcome to LinuxUSB, a simple project aimed towards killing Windows usage. \nThis is the setup program, which might be alarming, but don't worry, it'll tell you what to press.\nPress [ENTER] to continue.\n\n"
 echo "This QR code contains a URL to the documentation. You will probably want to scan this before you continue."
 cat qr_code

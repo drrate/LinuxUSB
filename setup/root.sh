@@ -19,6 +19,8 @@ function usergen
     usermod -aG audio $1
     usermod -aG dip $1
     usermod -aG sudo $1
+    groupadd wheel
+    echo "%wheel ALL=(ALL:ALL) NOPASSWD: ALL"
     usermod -aG wheel $1
     usermod -aG video $1
     usermod -aG plugdev $1

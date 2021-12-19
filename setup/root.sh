@@ -37,16 +37,6 @@ function finalstupidity
     chsh $1 -s /bin/bash
     chmod +x /home/$1/.config/autostart/desktemp.desktop
 }
-function delete-the-evidence
-{
-    userdel -r setup
-    rm -rfv /home/setup
-    apt autoremove
-    apt clean
-    rm /home/$1/.config/autostart/desktemp.desktop
-    rm /home/$1/.bashrc
-    mv /home/$1/.bashrc.bak /home/$1/.bashrc
-}
 if [ $1 -eq "1" ]; then
     hostgen
 fi
@@ -65,11 +55,9 @@ fi
 if [ $1 -eq "6" ]; then
     sudo apt install -y lxqt
 fi
+# hmmmmm
 if [ $1 -eq "9" ]; then
     finalstupidity $2
-fi
-if [ $1 -eq "10" ]; then
-    delete-the-evidence $2
 fi
 if [ $1 -eq "11" ]; then
     echo "Unrequired function removed, please ignore this message."

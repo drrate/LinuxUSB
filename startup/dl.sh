@@ -12,7 +12,7 @@ echo -ne "Downloading required files.   \r"
 sleep 1
 sudo mkdir /usr/lib/linuxusb
 sudo bash -c "curl https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/laststeps/finishsetup.sh &>/usr/lib/linuxusb/finishsetup.sh" &>/dev/null
-sudo chmod +x /usr/lib/linuxusb/finishsetup
+sudo chmod +x /usr/lib/linuxusb/finishsetup.sh
 echo -ne "Downloading required files..   \r"
 sleep 1
 sudo chmod +x /usr/lib/linuxusb

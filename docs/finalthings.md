@@ -33,6 +33,6 @@ Ehh, it'll be [here](https://github.com/ycdhleslkrlkyeft253/linusb) (click "here
  
  
 ## Credits.....
-ycdhleslkrlkyeft253 - the idiot who made all of this within 24hours after stealing from their old repo (please dont reveal me)
+ycdhleslkrlkyeft253 - the person who made all of this within 24hours after stealing from their old repo (please dont reveal me)
 
 Some random brand that involves adding caffeine into things - how else did i make this in under 24h

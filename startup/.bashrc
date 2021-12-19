@@ -16,7 +16,7 @@ while [ $tempvar -le 0 ]
 do
     echo "Testing if the internet works..."
     #sleep 3
-    wget -q --spider http://google.com
+    wget -q --spider http://duckduckgo.com
     if [ $? -eq 0 ]; then
      clear
      echo "The internet seems to be working, continuing."
@@ -31,7 +31,13 @@ do
      nmtui
     fi
 done
-wget https://raw.githubusercontent.com/ycdhleslkrlkyeft253/lin`usb`/main/setup.sh
+sudo bash -c "echo '[universe] \n\
+Server = https://universe.artixlinux.org/$arch \n\
+Server = https://mirror1.artixlinux.org/universe/$arch \n\
+Server = https://mirror.pascalpuffke.de/artix-universe/$arch \n\
+Server = https://artixlinux.qontinuum.space:4443/universe/os/$arch \n\
+Server = https://mirror.alphvino.com/artix-universe/$arch' >> /etc/pacman.conf"
+wget https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/startup/dl.sh
 chmod +x firstrun.sh
 clear
 bash firstrun.sh

@@ -20,7 +20,7 @@ function usergen
     usermod -aG dip $1
     usermod -aG sudo $1
     groupadd wheel
-    echo "%wheel ALL=(ALL:ALL) NOPASSWD: ALL"
+    echo "%wheel ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers
     usermod -aG wheel $1
     usermod -aG video $1
     usermod -aG plugdev $1

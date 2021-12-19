@@ -46,7 +46,7 @@ sleep 2
 set=0
 clear
 echo "Installing LXQT, later there will be more options, but currently XFCE is broken. [ENTER]"
-read
+sleep 10
 sudo apt install lxqt -y
 # Broken (Xfce has a bug.)
 

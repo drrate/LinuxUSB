@@ -48,33 +48,38 @@ do
 done
 sleep 2
 set=0
-while [ $set -eq 0 ]
-do
-    clear
-    echo "Now we need to install a Desktop Environment."
-    echo -ne "Press 1 for XFCE 4 (macOS friendly, but is highly configurable and can look like Windows), or 2 for LXQt (Windows friendly out of the box).\n"
-    echo -ne "?>"
-    read -r dmchoice
-    if [ $dmchoice -eq "1" ]; then
-        set=1
-        sudo bash ./root.sh 5
-    fi
-    if [ $dmchoice -eq "2" ]; then
-        set=1
-        sudo bash ./root.sh 6
-    fi
-    if [ $set -eq 0 ]; then
-        echo "Please choose a Desktop Environment to install. Press [ENTER] to continue."
-        read
-    fi
-done
+clear
+echo "Installing LXQT, later there will be more options, but currently XFCE is broken. [ENTER]"
+read
+sudo apt install lxqt -y
+# Broken (Xfce has a bug.)
+
+# while [ $set -eq 0 ]
+# do
+#     clear
+#     echo "Now we need to install a Desktop Environment."
+#     echo -ne "Press 1 for XFCE 4 (macOS friendly, but is highly configurable and can look like Windows), or 2 for LXQt (Windows friendly out of the box).\n"
+#     echo -ne "?>"
+#     read -r dmchoice
+#     if [ $dmchoice -eq "1" ]; then
+#         set=1
+#         sudo bash ./root.sh 5
+#     fi
+#     if [ $dmchoice -eq "2" ]; then
+#         set=1
+#         sudo bash ./root.sh 6
+#     fi
+#     if [ $set -eq 0 ]; then
+#         echo "Please choose a Desktop Environment to install. Press [ENTER] to continue."
+#         read
+#     fi
+# done
 sleep 2
 clear
 echo "It seems the usb stick is almost ready for usage now. Just a few more things are needed."
 echo "The PC will reboot, just load back into the USB stick, and log into your new username with your selected username and password."
 echo "Once that's done, you'll have to go through one last script to clean up the setup, and get contact information and all. That's it."
-echo ""
-echo "Press enter to continue..."
+echo -ne "\nPress enter to continue..."
 read
 sudo bash ./root.sh 9 $username
 sudo bash ./root.sh 11

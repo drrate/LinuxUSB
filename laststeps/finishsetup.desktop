@@ -4,4 +4,4 @@ Version=1.0
 Type=Application
 Terminal=true
 Exec=/bin/bash
-Name=USBWorkstation Setup Program
+Name=LinuxUSB Setup Program

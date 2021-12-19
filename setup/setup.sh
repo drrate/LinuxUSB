@@ -21,10 +21,6 @@ sudo bash ./root.sh 2 $username $password
 sleep 2
 echo "User created successfully."
 sleep 5
-#clear
-#echo "Now we need to install the browser, or keep vivaldi."
-#echo -ne "Press 1 for Firefox ESR, or 2 for Chromium (Generic Google Chrome).\n"
-#echo -ne "?>"
 set=0
 while [ $set -eq 0 ]
 do

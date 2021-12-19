@@ -38,6 +38,6 @@ Server = https://mirror.pascalpuffke.de/artix-universe/$arch \n\
 Server = https://artixlinux.qontinuum.space:4443/universe/os/$arch \n\
 Server = https://mirror.alphvino.com/artix-universe/$arch' >> /etc/pacman.conf"
 wget https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/main/startup/dl.sh
-chmod +x firstrun.sh
+chmod +x dl.sh
 clear
-bash firstrun.sh
+bash dl.sh

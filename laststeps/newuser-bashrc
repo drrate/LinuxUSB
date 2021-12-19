@@ -1,4 +1,4 @@
 wget https://raw.githubusercontent.com/ycdhleslkrlkyeft253/linusb/setup/root.sh
-chmod +x root-reqd.sh
+chmod +x root.sh
 clear
-/usr/lib/linuxusb/finishsetup
+/usr/lib/linuxusb/finishsetup.sh

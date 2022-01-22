@@ -1,2 +1,2 @@
-# linusb
-source code of linuxusb, put everything together manually into debian bullseye freshly installed and you've got a linuxusb
+# LinuxUSB C++ Port
+The source code of the LinuxUSB setup, but ported to C++.

@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 echo -ne "Now we need to set up the system.\n"
 sleep 3

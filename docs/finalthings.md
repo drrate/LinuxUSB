@@ -1,17 +1,17 @@
 ## Contact Information
-ycdhleslkrlkyeft253
+yetanotherdrrate
 
-Discord: [down for right now due to seemingly wrongful TOS ban]
+Discord: yetanotherdrrate#4477
 
-Email: ycdhleslkrlkyeft@hotmail.com
-
-(sorry for the long email and random chars, but I dont want to get in trouble by a supposed "hacker")
+Email: linuxusb@publiclyfoundidiocy.xyz     *Might have a longer response time.*
 
 ## LinuxUSB Support
-Please email me for support. I do not have a working discord server for right now.
+Discord: https://discord.gg/dNZm6TaKV5
+
+Other: Email, matrix server + irc coming soon.
 
 ## Source code, where you can see every little mistake I made
-Ehh, it'll be [here](https://github.com/ycdhleslkrlkyeft253/linusb) (click "here")
+Ehh, it'll be [here](https://github.com/drrate/LinuxUSB) (click "here")
  
  
  
@@ -33,6 +33,6 @@ Ehh, it'll be [here](https://github.com/ycdhleslkrlkyeft253/linusb) (click "here
  
  
 ## Credits.....
-ycdhleslkrlkyeft253 - the person who made all of this within 24hours after stealing from their old repo (please dont reveal me)
+~~ycdhleslkrlkyeft253~~ yetanotherdrrate - the person who made all of this within 24hours after stealing from their old repo
 
 Some random brand that involves adding caffeine into things - how else did i make this in under 24h
